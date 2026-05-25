@@ -3,11 +3,11 @@ def sumaPosiciones(lst, pi, pf):
 
 def sumaPosiciones2(lst, pi, pf):
 
-    # caso base
+    
     if pi > pf:
         return 0
     
-    # suma recursiva
+    
     return lst[pi] + sumaPosiciones2(lst, pi + 1, pf)
 
 
